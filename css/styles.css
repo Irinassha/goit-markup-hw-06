@@ -970,13 +970,11 @@ border: 1px solid #4D5AE5;
 
 
 .form-checkbox {
-  display: inline-block;
+  display: flex;
 margin-bottom: 24px;
 }
 
-.modal-form-check-deck {
-display: inline-flex; 
-align-items: center;
+.modal-form-check-deck {  
 font-family: 'Roboto';
 font-weight: 400;
 font-size: 12px;
@@ -1037,6 +1035,6 @@ border-radius: 4px;
 margin-bottom: 16px;
 }
 .policy {
-
+display: inline-block;
 color:#4D5AE5 ;
 }
