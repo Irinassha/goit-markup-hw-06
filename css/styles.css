@@ -970,6 +970,7 @@ border: 1px solid #4D5AE5;
 
 
 .form-checkbox {
+  display: inline-block;
 margin-bottom: 24px;
 }
 
