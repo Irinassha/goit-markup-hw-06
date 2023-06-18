@@ -599,7 +599,6 @@ margin-bottom: 16px;
 width: 264px;
 height: 40px;
 border: 1px solid #FFFFFF;
-background: #2E2F42;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 border-radius: 4px;
 font-family: 'Roboto', sans-serif;
@@ -610,7 +609,7 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: #ffffff;
 display: flex;
-
+ background-color: transparent;
 }
 
 .input-footer::-moz-placeholder {
@@ -975,7 +974,7 @@ margin-bottom: 24px;
 }
 
 .modal-form-check-deck {
-display: flex;
+display: flex; 
 align-items: center;
 font-family: 'Roboto';
 font-weight: 400;
@@ -987,20 +986,21 @@ color: #8E8F99;
 }
 
 .form-icon-check {
-  display: inline-flex;
+
 width: 16px;
-  height: 16px;
-  margin-right: 8px;
-  background-color: #e7e9fc;
+height: 16px;
+ margin-right: 8px;
+background-color: #e7e9fc;
 border: 1px solid rgba(46, 47, 66, 0.4);
 border-radius: 2px;
+display: inline-flex;
 align-items: center;
 justify-content: center;
 fill: transparent;
  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
  
 }
-.modal-form-check:checked + .modal-form-check-deck>.form-icon-check {
+.modal-form-check:checked + .modal-form-check-deck > .form-icon-check {
 background-color: #404BBF;
 border: none; 
 fill: #F4F4FD;
