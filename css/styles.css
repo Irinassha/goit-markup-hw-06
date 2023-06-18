@@ -581,7 +581,7 @@ min-width: 453px;
   */
 .form-footer {
 display: flex;
-
+gap: 24px;
 } 
 
 .form-footer-text {
