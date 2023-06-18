@@ -974,7 +974,7 @@ margin-bottom: 24px;
 }
 
 .modal-form-check-deck {
-display: flex; 
+display: inline-flex; 
 align-items: center;
 font-family: 'Roboto';
 font-weight: 400;
